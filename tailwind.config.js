@@ -2,7 +2,14 @@
 module.exports = {
   content: ['*'],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        "color-primary-dark":"#FF0000",
+        "color-primary":"#FF8938",
+        "color-bg-light":"#FF0000",
+        "color-bg-dark":"#FF8938",
+      }
+    },
     container: {
        center: true,
       padding: {
