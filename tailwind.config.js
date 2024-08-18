@@ -2,6 +2,10 @@
 module.exports = {
   content: ['*'],
   theme: {
+    fontFamily:{
+      'Manopore':["Manrope", 'sans-serif'],
+
+    },
     extend: {
       colors:{
         "color-primary-dark":"#FF0000",
